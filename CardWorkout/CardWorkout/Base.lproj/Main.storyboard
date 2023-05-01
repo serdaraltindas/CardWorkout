@@ -65,7 +65,6 @@
                                     <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="rulesButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PLL-fO-rLU"/>
                                     <segue destination="Khe-AT-D6u" kind="presentation" id="Tr9-Fq-MdS"/>
                                 </connections>
                             </button>
@@ -84,7 +83,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cardImageView" destination="kGQ-27-jT9" id="zPO-nZ-n58"/>
+                        <outlet property="cardImageView" destination="kGQ-27-jT9" id="1ZF-KA-7aF"/>
                         <outletCollection property="buttons" destination="4pw-Iv-b8H" collectionClass="NSMutableArray" id="YMM-z1-zat"/>
                         <outletCollection property="buttons" destination="lIX-l4-H9v" collectionClass="NSMutableArray" id="03t-Ub-YvX"/>
                         <outletCollection property="buttons" destination="qpm-dT-4ys" collectionClass="NSMutableArray" id="QG2-Gm-8A1"/>
