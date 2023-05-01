@@ -59,8 +59,8 @@
 				AED26D0929FFD078000462BF /* Delegate */,
 				AED26CFB29FFD01B000462BF /* Main.storyboard */,
 				AED26D0A29FFD0BC000462BF /* CardSelectionVC.swift */,
-				AED26CFE29FFD01C000462BF /* Assets.xcassets */,
 				AED26D0029FFD01C000462BF /* LaunchScreen.storyboard */,
+				AED26CFE29FFD01C000462BF /* Assets.xcassets */,
 				AED26D0329FFD01C000462BF /* Info.plist */,
 			);
 			path = CardWorkout;
