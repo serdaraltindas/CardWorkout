@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		AED26CF629FFD01B000462BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED26CF529FFD01B000462BF /* AppDelegate.swift */; };
 		AED26CF829FFD01B000462BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED26CF729FFD01B000462BF /* SceneDelegate.swift */; };
-		AED26CFA29FFD01B000462BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED26CF929FFD01B000462BF /* ViewController.swift */; };
 		AED26CFD29FFD01B000462BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED26CFB29FFD01B000462BF /* Main.storyboard */; };
 		AED26CFF29FFD01C000462BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED26CFE29FFD01C000462BF /* Assets.xcassets */; };
 		AED26D0229FFD01C000462BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED26D0029FFD01C000462BF /* LaunchScreen.storyboard */; };
+		AED26D0B29FFD0BC000462BF /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED26D0A29FFD0BC000462BF /* CardSelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AED26CF229FFD01B000462BF /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED26CF529FFD01B000462BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED26CF729FFD01B000462BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AED26CF929FFD01B000462BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AED26CFC29FFD01B000462BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED26CFE29FFD01C000462BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED26D0129FFD01C000462BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED26D0329FFD01C000462BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED26D0A29FFD0BC000462BF /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		AED26CF429FFD01B000462BF /* CardWorkout */ = {
 			isa = PBXGroup;
 			children = (
-				AED26CF529FFD01B000462BF /* AppDelegate.swift */,
-				AED26CF729FFD01B000462BF /* SceneDelegate.swift */,
-				AED26CF929FFD01B000462BF /* ViewController.swift */,
+				AED26D0929FFD078000462BF /* Delegate */,
 				AED26CFB29FFD01B000462BF /* Main.storyboard */,
+				AED26D0A29FFD0BC000462BF /* CardSelectionVC.swift */,
 				AED26CFE29FFD01C000462BF /* Assets.xcassets */,
 				AED26D0029FFD01C000462BF /* LaunchScreen.storyboard */,
 				AED26D0329FFD01C000462BF /* Info.plist */,
 			);
 			path = CardWorkout;
+			sourceTree = "<group>";
+		};
+		AED26D0929FFD078000462BF /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				AED26CF529FFD01B000462BF /* AppDelegate.swift */,
+				AED26CF729FFD01B000462BF /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED26CFA29FFD01B000462BF /* ViewController.swift in Sources */,
 				AED26CF629FFD01B000462BF /* AppDelegate.swift in Sources */,
 				AED26CF829FFD01B000462BF /* SceneDelegate.swift in Sources */,
+				AED26D0B29FFD0BC000462BF /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
